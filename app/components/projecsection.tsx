@@ -14,8 +14,8 @@ export default function Projectsection() {
             </div>
         </div>
         <div className='z-0 absolute mt-32 md:mt-24 h-[100%]  w-screen  '>
-          <div className='flex flex-col  space-y-4 md:space-y-10  lg:justify-center align-middle'>
-            {/* <h1 className='text-white text-5xl'></h1> */}
+          <div className='flex flex-col  space-y-4   lg:justify-center align-middle'>
+            <h1 className='text-white text-5xl self-center'>My Projects</h1>
             <div className='self-center hover:scale-110 delay-75 transition'>
               <Project4/>
             </div>
