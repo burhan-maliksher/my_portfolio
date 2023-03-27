@@ -1,4 +1,5 @@
 import Image from "next/image"
+import Link from "next/link"
 
 export const SkillCircle=()=>{
     return(
@@ -27,7 +28,7 @@ export const Wave=()=>{
 export const Twitter=()=>{
     return(
         <span>
-            <Image src={'/assets/icons/twitter.svg'} width={0} height={0} alt={'wave '} className="w-auto hover:bg-sky-500 hover:rounded hover:p-2 cursor-pointer"/>
+           <Link href={'https://twitter.com/BURHANmaliksher'} prefetch={false} target="_blank"><Image src={'/assets/icons/twitter.svg'} width={0} height={0} alt={'wave '} className="w-auto hover:bg-sky-500 hover:rounded hover:p-2 cursor-pointer"/></Link>
         </span>
     )
 }
@@ -35,7 +36,7 @@ export const Twitter=()=>{
 export const Linkedin=()=>{
     return(
         <span>
-            <Image src={'/assets/icons/linkedin.svg'} width={0} height={0} alt={'wave '} className="w-auto  hover:bg-sky-500 hover:rounded hover:p-2 cursor-pointer"/>
+            <Link href={'https://www.linkedin.com/in/muhammad-burhan-a444181b7/'} prefetch={false} target="_blank"><Image src={'/assets/icons/linkedin.svg'} width={0} height={0} alt={'wave '} className="w-auto  hover:bg-sky-500 hover:rounded hover:p-2 cursor-pointer"/></Link>
         </span>
     )
 }
